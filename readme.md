@@ -6,7 +6,7 @@
 1. Config your data in Settings/Base at Backend panel.
 
 ### Components installation
-##### Logo
+#### Logo
 Wherever you want to use your logo, import component with 
 
 >[logo]
@@ -24,7 +24,7 @@ at the top of .htm document
 >{% component 'logo' %}
 
 (that's only an img)
-##### Head
+#### Head
 Open layout.htm and in head tags leave only import of your style.css / app.css
 
 Than import component with 
@@ -32,3 +32,11 @@ Than import component with
 
 and inside the head tag write
 >{% component 'head' %}
+
+#### Signature
+Open file you want to attach component in and import component with
+>[signature]
+
+and then import component with 
+>{% component 'signature' %}
+
