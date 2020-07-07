@@ -2,6 +2,7 @@
 
 use Backend;
 use System\Classes\PluginBase;
+use Lang;
 
 /**
  * base Plugin Information File
@@ -16,21 +17,25 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'base',
-            'description' => 'No description provided yet...',
-            'author'      => 'codeclutch',
-            'icon'        => 'icon-leaf'
+            'name' => Lang::get('codeclutch.base::lang.plugin.name'),
+            'description' => Lang::get('codeclutch.base::lang.plugin.description'),
+            'author' => 'codeclutch',
+            'icon' => 'icon-leaf'
         ];
     }
 
-    /**
-     * Register method, called when the plugin is first registered.
-     *
-     * @return void
-     */
-    public function register()
+    public function registerSettings()
     {
-
+        return [
+            'base' => [
+                'label'  => Lang::get('codeclutch.base::lang.plugin.name'),
+                'description'  => Lang::get('codeclutch.base::lang.plugin.description'),
+                'category' => Lang::get('codeclutch.base::lang.plugin.author'),
+                'icon' => 'icon-home',
+                'order' => 1,
+                'class' => 'Codeclutch\Base\Models\Settings'
+            ]
+        ];
     }
 
     /**
@@ -85,11 +90,11 @@ class Plugin extends PluginBase
 
         return [
             'base' => [
-                'label'       => 'base',
-                'url'         => Backend::url('codeclutch/base/mycontroller'),
-                'icon'        => 'icon-leaf',
+                'label' => 'base',
+                'url' => Backend::url('codeclutch/base/mycontroller'),
+                'icon' => 'icon-leaf',
                 'permissions' => ['codeclutch.base.*'],
-                'order'       => 500,
+                'order' => 500,
             ],
         ];
     }
