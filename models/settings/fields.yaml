@@ -1,0 +1,72 @@
+tabs:
+    fields:
+        icon:
+            label: 'codeclutch.base::lang.plugin.model.icon'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'codeclutch.base::lang.plugin.model.information'
+        logo:
+            label: 'codeclutch.base::lang.plugin.model.logo'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'codeclutch.base::lang.plugin.model.information'
+        title:
+            label: 'codeclutch.base::lang.plugin.model.title'
+            span: auto
+            type: text
+            tab: 'codeclutch.base::lang.plugin.model.information'
+        description:
+            label: 'codeclutch.base::lang.plugin.model.description'
+            span: auto
+            type: text
+            tab: 'codeclutch.base::lang.plugin.model.meta'
+        keywords:
+            label: 'codeclutch.base::lang.plugin.model.keywords'
+            span: auto
+            placeholder: keywords-placeholder
+            type: text
+            tab: 'codeclutch.base::lang.plugin.model.meta'
+        color:
+            label: 'codeclutch.base::lang.plugin.model.color'
+            span: auto
+            type: colorpicker
+            tab: 'codeclutch.base::lang.plugin.model.meta'
+        author:
+            label: 'codeclutch.base::lang.plugin.model.author'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'codeclutch.base::lang.plugin.model.author'
+        copyright:
+            label: 'codeclutch.base::lang.plugin.model.copyright'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'codeclutch.base::lang.plugin.model.author'
+        link:
+            label: 'codeclutch.base::lang.plugin.model.link'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'codeclutch.base::lang.plugin.model.author'
+        author_logo:
+            label: 'codeclutch.base::lang.plugin.model.author_logo'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            disabled: 1
+            type: fileupload
+            tab: 'codeclutch.base::lang.plugin.model.author'
