@@ -1,12 +1,12 @@
-#Installation
+# Installation
 1. Clone repo into 'plugins/codeclutch' directory.
 1. In main directory hit: 
 
     **php artisan october:up**
 1. Config your data in Settings/Base at Backend panel.
 
-###Components installation
-#####Logo
+### Components installation
+##### Logo
 Wherever you want to use your logo, import component with 
 
 >[logo]
@@ -22,8 +22,9 @@ at the top of .htm document
 
 *Use*
 >{% component 'logo' %}
->######(that's only an img)
-#####Head
+
+(that's only an img)
+##### Head
 Open layout.htm and in head tags leave only import of your style.css / app.css
 
 Than import component with 
