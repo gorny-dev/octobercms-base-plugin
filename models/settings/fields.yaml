@@ -25,6 +25,11 @@ tabs:
             span: auto
             type: text
             tab: 'codeclutch.base::lang.plugin.model.information'
+        meta_title:
+            label: 'codeclutch.base::lang.plugin.model.meta_title'
+            span: auto
+            type: text
+            tab: 'codeclutch.base::lang.plugin.model.meta'
         description:
             label: 'codeclutch.base::lang.plugin.model.description'
             span: auto
@@ -33,7 +38,7 @@ tabs:
         keywords:
             label: 'codeclutch.base::lang.plugin.model.keywords'
             span: auto
-            placeholder: keywords-placeholder
+            placeholder: 'codeclutch.base::lang.plugin.model.keywords_placeholder'
             type: text
             tab: 'codeclutch.base::lang.plugin.model.meta'
         color:

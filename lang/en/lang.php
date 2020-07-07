@@ -19,6 +19,7 @@ return [
             'author_logo' => 'Author logo',
             'author' => 'Author',
             'keywords_placeholder' => 'write, after, commas',
+            'meta_title' => 'Meta title',
         ],
         'components' => [
             'logo' => [
@@ -32,6 +33,10 @@ return [
                     'name' => 'Width',
                     'description' => 'Width of logo',
                 ]
+            ],
+            'head' => [
+                'name' => 'Head',
+                'description' => 'Fills <head>'
             ]
         ]
     ]

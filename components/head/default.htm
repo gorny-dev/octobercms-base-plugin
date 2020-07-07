@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<title>{{head.meta.title}} - {{ this.page.title }}</title>
+<meta name="description" content="{{head.meta.description}} - {{ this.page.meta_description }}">
+<meta name="title" content="{{head.meta.meta_title}}">
+<meta name="author" content="{{head.meta.author}}">
+<meta name=”keywords” content=”{{head.meta.keywords}}” />
+<meta name="theme-color" content="{{head.meta.color}}">
+<meta name="copyright" content="{{head.meta.copyright}}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="OctoberCMS by {{head.meta.author}}">
+<link rel="icon" type="image/png" href="{{ head.meta.icon.thumb(200, auto) }}">
+
+<link rel="shortcut icon" href="{{ head.meta.icon.thumb(50, auto) }}">
+<link rel="apple-touch-icon-precomposed" href="{{ head.meta.icon.thumb(200, auto) }}">
+<link rel="apple-touch-icon-precomposed" sizes="57×57″ href=" apple-touch-icon-iphone.png"="{{ head.meta.icon.thumb(57, 57) }}">
+<link rel="apple-touch-icon-precomposed" sizes="72×72″ href=" apple-touch-icon-ipad.png"="{{ head.meta.icon.thumb(72, 72) }}">
+<link rel="apple-touch-icon-precomposed" sizes="114×114″ href=" apple-touch-icon-iphone-retina-display.png"="{{ head.meta.icon.thumb(114, 114) }}">
+<link rel="apple-touch-icon-precomposed" href="{{ head.meta.icon.thumb(152,152) }}">
+
+<meta name="og:title" property="og:title" content="{{head.meta.meta_title}}">
+<meta name="og:description" property="og:title" content="{{head.meta.meta_title}}">
+<meta name="og:image" property="og:image" content="{{ head.meta.logo.thumb(500, auto) }}">
+<meta name="og:url" property="og:image" content="{{ this.page.url }}">
+<meta property="og:site_name" content="{{head.meta.meta_title}}">
+
+<meta name="twitter:title" content="{{head.meta.title}} ">
+<meta name="twitter:description" content="{{head.meta.description}}">
+<meta name="twitter:image" content="{{ head.meta.logo.thumb(500, auto) }}">
+<meta name="twitter:card" content="{{ head.meta.logo.thumb(500, auto) }}">
