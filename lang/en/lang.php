@@ -37,6 +37,14 @@ return [
             'head' => [
                 'name' => 'Head',
                 'description' => 'Fills <head>'
+            ],
+            'signature' => [
+                'name' => 'Signature',
+                'description' => 'Displays signature of website authors',
+                'text' => [
+                    'name' => 'Signature text',
+                    'description' => 'Content of signature',
+                ]
             ]
         ]
     ]

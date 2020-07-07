@@ -37,6 +37,7 @@ class Plugin extends PluginBase
         return [
             'Codeclutch\Base\Components\Logo' => 'logo',
             'Codeclutch\Base\Components\Head' => 'head',
+            'Codeclutch\Base\Components\Signature' => 'signature',
         ];
     }
 
